@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sample-charger-a",
+    "name": "サンプル充電器A（65W GaN USB-C）",
+    "brand": "サンプルブランド",
+    "category": "USB充電器",
+    "image": "https://placehold.co/400x400?text=Charger+A",
+    "priceMin": 3990,
+    "priceMax": 3990,
+    "rating": 4.5,
+    "description": "コンパクトながら65W出力に対応した急速充電器。ノートPCとスマホを1台でまかないたい人向け。",
+    "pros": ["軽量・コンパクト", "65W出力でノートPCも充電可能"],
+    "cons": ["ケーブルは別売り"],
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/XXXXXXXXXX?tag=YOUR_ASSOCIATE_ID-22",
+      "rakuten": "",
+      "a8": ""
+    }
+  },
+  {
+    "id": "sample-charger-b",
+    "name": "サンプル充電器B（30W USB-C）",
+    "brand": "サンプルブランド",
+    "category": "USB充電器",
+    "image": "https://placehold.co/400x400?text=Charger+B",
+    "priceMin": 2490,
+    "priceMax": 2490,
+    "rating": 4.2,
+    "description": "スマホ・タブレット中心に使うなら十分な30W出力。価格を抑えたい人向けの定番モデル。",
+    "pros": ["価格が安い", "サイズが小さくカバンに入れやすい"],
+    "cons": ["ノートPCの急速充電には非対応"],
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/YYYYYYYYYY?tag=YOUR_ASSOCIATE_ID-22",
+      "rakuten": "",
+      "a8": ""
+    }
+  },
+  {
+    "id": "sample-charger-c",
+    "name": "サンプル充電器C（100W 4ポート）",
+    "brand": "サンプルブランド",
+    "category": "USB充電器",
+    "image": "https://placehold.co/400x400?text=Charger+C",
+    "priceMin": 6980,
+    "priceMax": 6980,
+    "rating": 4.6,
+    "description": "4ポート搭載で家族分・複数デバイスをまとめて充電できるハイパワーモデル。",
+    "pros": ["4台同時充電が可能", "100W出力でハイパワー"],
+    "cons": ["やや大きく重い", "価格が高め"],
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/ZZZZZZZZZZ?tag=YOUR_ASSOCIATE_ID-22",
+      "rakuten": "",
+      "a8": ""
+    }
+  },
+  {
+    "id": "sample-earbuds-a",
+    "name": "サンプルイヤホンA（ノイズキャンセリング）",
+    "brand": "サンプルブランド",
+    "category": "ワイヤレスイヤホン",
+    "image": "https://placehold.co/400x400?text=Earbuds+A",
+    "priceMin": 8980,
+    "priceMax": 8980,
+    "rating": 4.4,
+    "description": "強力なノイズキャンセリングを搭載し、在宅ワークや通勤中の集中に向いたモデル。",
+    "pros": ["ノイズキャンセリング性能が高い", "通話品質が良い"],
+    "cons": ["連続再生時間はやや短め"],
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/AAAAAAAAAA?tag=YOUR_ASSOCIATE_ID-22",
+      "rakuten": "",
+      "a8": ""
+    }
+  },
+  {
+    "id": "sample-earbuds-b",
+    "name": "サンプルイヤホンB（軽量・長時間）",
+    "brand": "サンプルブランド",
+    "category": "ワイヤレスイヤホン",
+    "image": "https://placehold.co/400x400?text=Earbuds+B",
+    "priceMin": 5480,
+    "priceMax": 5480,
+    "rating": 4.1,
+    "description": "軽量設計と長時間バッテリーが特徴で、旅行や長時間の外出に向いたモデル。",
+    "pros": ["軽量で長時間つけていても疲れにくい", "バッテリー持ちが良い"],
+    "cons": ["ノイズキャンセリングは非搭載"],
+    "links": {
+      "amazon": "https://www.amazon.co.jp/dp/BBBBBBBBBB?tag=YOUR_ASSOCIATE_ID-22",
+      "rakuten": "",
+      "a8": ""
+    }
+  }
+]

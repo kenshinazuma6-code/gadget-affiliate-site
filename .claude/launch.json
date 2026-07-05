@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "C:\\Users\\kensh\\OneDrive\\デスクトップ\\アフィリエイト\\.claude\\dev-server.bat",
+      "runtimeArgs": [],
+      "port": 3000
+    }
+  ]
+}
