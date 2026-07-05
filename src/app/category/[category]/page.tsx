@@ -4,9 +4,7 @@ import { getAllCategories, getPostsByCategory } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 
 export function generateStaticParams() {
-  return getAllCategories().map((category) => ({
-    category: encodeURIComponent(category),
-  }));
+  return getAllCategories().map((category) => ({ category }));
 }
 
 export async function generateMetadata({

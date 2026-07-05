@@ -4,7 +4,7 @@ import { getAllTags, getPostsByTag } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 
 export function generateStaticParams() {
-  return getAllTags().map((tag) => ({ tag: encodeURIComponent(tag) }));
+  return getAllTags().map((tag) => ({ tag }));
 }
 
 export async function generateMetadata({

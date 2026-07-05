@@ -21,7 +21,7 @@ export default function PostsPage() {
         {categories.map((category) => (
           <Link
             key={category}
-            href={`/category/${encodeURIComponent(category)}`}
+            href={`/category/${category}`}
             className="rounded-full border border-gray-300 px-3 py-1 text-sm text-gray-700 hover:border-gray-400"
           >
             {category}
@@ -30,7 +30,7 @@ export default function PostsPage() {
         {tags.map((tag) => (
           <Link
             key={tag}
-            href={`/tag/${encodeURIComponent(tag)}`}
+            href={`/tag/${tag}`}
             className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 hover:bg-gray-200"
           >
             #{tag}

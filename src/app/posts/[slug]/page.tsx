@@ -68,7 +68,7 @@ export default async function PostPage({
 
       <div className="mb-6">
         <Link
-          href={`/category/${encodeURIComponent(post.category)}`}
+          href={`/category/${post.category}`}
           className="text-xs font-semibold text-orange-600"
         >
           {post.category}
@@ -87,7 +87,7 @@ export default async function PostPage({
             {post.tags.map((tag) => (
               <Link
                 key={tag}
-                href={`/tag/${encodeURIComponent(tag)}`}
+                href={`/tag/${tag}`}
                 className="rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-600 hover:bg-gray-200"
               >
                 #{tag}

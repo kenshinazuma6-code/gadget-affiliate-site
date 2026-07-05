@@ -53,7 +53,7 @@ export default function HomePage() {
             {categories.map((category) => (
               <Link
                 key={category}
-                href={`/category/${encodeURIComponent(category)}`}
+                href={`/category/${category}`}
                 className="rounded-full border border-gray-300 px-4 py-1.5 text-sm text-gray-700 transition hover:border-gray-400"
               >
                 {category}
