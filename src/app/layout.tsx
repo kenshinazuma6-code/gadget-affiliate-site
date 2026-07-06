@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
+
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
+const googleSiteVerification = process.env.GOOGLE_SITE_VERIFICATION;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +31,9 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     siteName: siteConfig.name,
   },
+  verification: googleSiteVerification
+    ? { google: googleSiteVerification }
+    : undefined,
 };
 
 export default function RootLayout({
@@ -43,6 +50,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        {gaId && <GoogleAnalytics gaId={gaId} />}
       </body>
     </html>
   );

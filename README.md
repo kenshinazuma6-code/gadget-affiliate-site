@@ -17,7 +17,7 @@ npm run dev
 - `data/products.json` — 商品情報（商品名・画像・価格・ASPリンク）を一元管理
 - `src/lib/posts.ts` — 記事の読み込み・一覧取得ロジック
 - `src/lib/products.ts` — 商品データの読み込みロジック
-- `src/lib/markdown.tsx` — Markdown→HTML変換とショートコード処理
+- `src/lib/markdown.ts` — Markdown→HTML変換とショートコード処理
 - `src/components/` — 共通UIコンポーネント
 
 ## 記事の書き方
@@ -62,6 +62,18 @@ NEXT_PUBLIC_SITE_URL=https://your-domain.example.com
 ```
 
 未設定の場合は `http://localhost:3000` が使われます。
+
+Google Analytics (GA4) と Google Search Console を使う場合は、以下も設定します。
+
+```
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+GOOGLE_SITE_VERIFICATION=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+- `NEXT_PUBLIC_GA_ID` — GA4プロパティの測定ID。設定するとページに自動でgtag.jsが埋め込まれます
+- `GOOGLE_SITE_VERIFICATION` — Search Consoleの「HTMLタグ」確認方法で発行される`content`属性の値。設定すると`<meta name="google-site-verification">`が自動で挿入されます
+
+どちらも未設定の場合はタグ自体が出力されません。
 
 ## サイト名・ブランディング
 
