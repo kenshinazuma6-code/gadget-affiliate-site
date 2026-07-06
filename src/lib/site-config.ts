@@ -1,6 +1,5 @@
-// サイト名・URLなどはまだ未確定のため仮の値。ドメイン取得後に更新してください。
 export const siteConfig = {
-  name: "ガジェットラボ",
+  name: "ガジェコレ",
   description:
     "在宅ワーク・旅行で役立つITガジェットを比較・レビュー。価格帯やシーン別に本当におすすめできる製品だけを紹介します。",
   url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
