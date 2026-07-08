@@ -18,6 +18,25 @@ export default function HomePage() {
         </p>
       </section>
 
+      <section className="mb-16">
+        <Link
+          href="/shindan"
+          className="flex flex-col items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-8 text-center text-white transition hover:opacity-95 sm:flex-row sm:justify-between sm:text-left"
+        >
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wide text-orange-100">
+              4問でわかる
+            </p>
+            <p className="mt-1 text-xl font-bold">
+              あなたにぴったりのガジェットタイプ診断
+            </p>
+          </div>
+          <span className="mt-4 rounded-md bg-white px-5 py-2 text-sm font-semibold text-orange-600 sm:mt-0">
+            診断してみる
+          </span>
+        </Link>
+      </section>
+
       {featuredPosts.length > 0 && (
         <section className="mb-16">
           <h2 className="mb-4 text-xl font-bold text-gray-900">特集記事</h2>
