@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import {
   diagnosisQuestions,
   computeDiagnosisResult,
@@ -35,8 +36,16 @@ export default function DiagnosisQuiz() {
 
   return (
     <div className="mx-auto max-w-xl">
-      <div className="mb-6 text-sm text-gray-500">
-        質問 {step + 1} / {diagnosisQuestions.length}
+      <div className="mb-6 flex items-center justify-between text-sm text-gray-500">
+        <span>
+          質問 {step + 1} / {diagnosisQuestions.length}
+        </span>
+        <Link
+          href="/posts"
+          className="underline underline-offset-2 hover:text-gray-700"
+        >
+          記事を見る
+        </Link>
       </div>
       <h2 className="mb-6 text-xl font-bold text-gray-900">
         {question.question}
