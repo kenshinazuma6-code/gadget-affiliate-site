@@ -1,56 +1,47 @@
 [
   {
-    "id": "sample-charger-a",
-    "name": "サンプル充電器A（65W GaN USB-C）",
-    "brand": "サンプルブランド",
+    "id": "tama-pr-ap148uc2k",
+    "name": "多摩電子工業 ACアダプタ PD65W コンセント充電器 窒化ガリウム 自動振り分け（PR-AP148UC2K）",
+    "brand": "tama's（多摩電子工業）",
     "category": "USB充電器",
-    "image": "https://placehold.co/400x400?text=Charger+A",
-    "priceMin": 3990,
-    "priceMax": 3990,
-    "rating": 4.5,
-    "description": "コンパクトながら65W出力に対応した急速充電器。ノートPCとスマホを1台でまかないたい人向け。",
-    "pros": ["軽量・コンパクト", "65W出力でノートPCも充電可能"],
-    "cons": ["ケーブルは別売り"],
+    "image": "https://shop.tamadenco.co.jp/wp-content/uploads/2025/09/PR-AP148UC2K-1-555x555.jpg",
+    "priceMin": 3980,
+    "priceMax": 3980,
+    "description": "GaN（窒化ガリウム）採用で低発熱・小型化を実現した65W出力の充電器。自動振り分け機能でノートPC・スマホ・タブレットに対応。",
+    "pros": ["65W出力でノートPCも充電可能", "USB-C×2・USB-A×1の自動振り分け", "90°回転式プラグで収納しやすい"],
+    "cons": ["本体のみでケーブルは別売り"],
     "links": {
-      "amazon": "https://www.amazon.co.jp/dp/XXXXXXXXXX?tag=YOUR_ASSOCIATE_ID-22",
-      "rakuten": "",
-      "a8": ""
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7WD9+AJUKQA+54VA+BW8O2&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fpr-ap148uc2k%2F"
     }
   },
   {
-    "id": "sample-charger-b",
-    "name": "サンプル充電器B（30W USB-C）",
-    "brand": "サンプルブランド",
+    "id": "tama-pr-ap153uc",
+    "name": "多摩電子工業 ACアダプタ PD30W コンセント充電器 窒化ガリウム（PR-AP153UC）",
+    "brand": "tama's（多摩電子工業）",
     "category": "USB充電器",
-    "image": "https://placehold.co/400x400?text=Charger+B",
-    "priceMin": 2490,
-    "priceMax": 2490,
-    "rating": 4.2,
-    "description": "スマホ・タブレット中心に使うなら十分な30W出力。価格を抑えたい人向けの定番モデル。",
-    "pros": ["価格が安い", "サイズが小さくカバンに入れやすい"],
-    "cons": ["ノートPCの急速充電には非対応"],
+    "image": "https://shop.tamadenco.co.jp/wp-content/uploads/2025/10/PR-AP153U_20251007-555x555.jpg",
+    "priceMin": 1980,
+    "priceMax": 1980,
+    "description": "スマホ・タブレット中心の利用に十分な30W出力のコンパクトモデル。GaN採用で小型・低発熱、PPS対応で効率的に充電できる。",
+    "pros": ["価格が安い", "GaN採用でコンパクト", "90°回転式プラグで持ち運びやすい"],
+    "cons": ["ノートPCの急速充電には非対応", "本体のみでケーブルは別売り"],
     "links": {
-      "amazon": "https://www.amazon.co.jp/dp/YYYYYYYYYY?tag=YOUR_ASSOCIATE_ID-22",
-      "rakuten": "",
-      "a8": ""
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7WD9+AJUKQA+54VA+BW8O2&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fpr-ap153uc%2F"
     }
   },
   {
-    "id": "sample-charger-c",
-    "name": "サンプル充電器C（100W 4ポート）",
-    "brand": "サンプルブランド",
+    "id": "tama-pr-ap160uc3",
+    "name": "多摩電子工業 ACアダプタ PD100W コンセント充電器 窒化ガリウム（PR-AP160UC3）",
+    "brand": "tama's（多摩電子工業）",
     "category": "USB充電器",
-    "image": "https://placehold.co/400x400?text=Charger+C",
-    "priceMin": 6980,
-    "priceMax": 6980,
-    "rating": 4.6,
-    "description": "4ポート搭載で家族分・複数デバイスをまとめて充電できるハイパワーモデル。",
-    "pros": ["4台同時充電が可能", "100W出力でハイパワー"],
-    "cons": ["やや大きく重い", "価格が高め"],
+    "image": "https://shop.tamadenco.co.jp/wp-content/uploads/2025/10/PR-AP160UC3_20251007-555x555.jpg",
+    "priceMin": 3900,
+    "priceMax": 3900,
+    "description": "USB-C×3・USB-A×1の合計4ポートを搭載したハイパワーモデル。家族分・複数デバイスをまとめて充電したい人向け。",
+    "pros": ["4ポート搭載で複数台を同時充電", "100W出力でノートPCにも対応", "折りたたみ式プラグで携帯性も確保"],
+    "cons": ["本体のみでケーブルは別売り"],
     "links": {
-      "amazon": "https://www.amazon.co.jp/dp/ZZZZZZZZZZ?tag=YOUR_ASSOCIATE_ID-22",
-      "rakuten": "",
-      "a8": ""
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7WD9+AJUKQA+54VA+BW8O2&a8ejpredirect=https%3A%2F%2Fshop.tamadenco.co.jp%2Fproduct%2Fpr-ap160uc3%2F"
     }
   },
   {

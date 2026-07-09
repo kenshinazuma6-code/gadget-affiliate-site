@@ -40,6 +40,10 @@ yarn-error.log*
 # claude code local settings
 .claude/settings.local.json
 
+# unrelated independent project sharing this folder
+/chaosmap-3d/
+.claude/chaosmap-dev.bat
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

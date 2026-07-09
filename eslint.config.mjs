@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // chaosmap-3d/ is an independent Vite/R3F app, not part of this project
+    "chaosmap-3d/**",
   ]),
 ]);
 

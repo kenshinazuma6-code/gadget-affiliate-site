@@ -38,11 +38,11 @@ featured: false
 
 商品比較表を挿入する場合は商品IDをカンマ区切りで指定します。
 
-[compare:sample-charger-a,sample-charger-b]
+[compare:商品ID1,商品ID2]
 
 単品の商品カードを挿入する場合:
 
-[product:sample-charger-a]
+[product:商品ID1]
 ```
 
 ## 商品データの管理

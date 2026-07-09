@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
       // 各ASPの画像ホストをここに追加してください（例: m.media-amazon.com,
       // thumbnail.image.rakuten.co.jp など）。
       { protocol: "https", hostname: "placehold.co" },
+      // 多摩電子工業(tama's)の商品画像
+      { protocol: "https", hostname: "shop.tamadenco.co.jp" },
     ],
   },
 };
