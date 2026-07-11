@@ -45,6 +45,51 @@
     }
   },
   {
+    "id": "switchbot-plug-mini",
+    "name": "SwitchBot プラグミニ（JP）",
+    "brand": "SwitchBot",
+    "category": "スマートホーム",
+    "image": "https://cdn.shopify.com/s/files/1/0522/2458/9999/files/3396_1x_515460ae-4cf1-4cdd-8b7b-3483e7e72b49.webp?v=1764836422",
+    "priceMin": 1980,
+    "priceMax": 1980,
+    "description": "コンセントに挿すだけで家電のオン・オフをスマホや音声で操作できるスマートプラグ。工事不要でスマートホームを始めやすい入門アイテム。",
+    "pros": ["工事不要で挿すだけで使える", "スマホ・音声操作に対応", "価格が手頃でスマートホーム入門に最適"],
+    "cons": ["N極型のため対応するコンセントの向きを確認する必要がある"],
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7XX6+ADW8OI+4W9U+BWGDT&a8ejpredirect=https%3A%2F%2Fwww.switchbot.jp%2Fproducts%2Fswitchbot-plug-mini"
+    }
+  },
+  {
+    "id": "switchbot-contact-sensor",
+    "name": "SwitchBot 開閉センサー",
+    "brand": "SwitchBot",
+    "category": "スマートホーム",
+    "image": "https://cdn.shopify.com/s/files/1/0522/2458/9999/files/Contact_Sensor_1x_3cfa7cb4-e4c6-4ae5-b75e-146c9f925ccc.png?v=1738924136",
+    "priceMin": 2980,
+    "priceMax": 2980,
+    "description": "ドアや窓に貼るだけで開閉状態を検知できるセンサー。外出先からスマホで確認でき、防犯や見守り用途にも使える。",
+    "pros": ["貼るだけで設置できる", "外出先からスマホで開閉状況を確認できる", "防犯・見守り用途にも使える"],
+    "cons": ["Alexa等への音声通知には別売りのハブが必要"],
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7XX6+ADW8OI+4W9U+BWGDT&a8ejpredirect=https%3A%2F%2Fwww.switchbot.jp%2Fproducts%2Fswitchbot-contact-sensor"
+    }
+  },
+  {
+    "id": "switchbot-meter-pro",
+    "name": "SwitchBot 温湿度計Pro",
+    "brand": "SwitchBot",
+    "category": "スマートホーム",
+    "image": "https://cdn.shopify.com/s/files/1/0522/2458/9999/files/meterpro_menu_1.webp?v=1732788940",
+    "priceMin": 3480,
+    "priceMax": 3480,
+    "description": "温度・湿度・快適指数を大画面に表示する温湿度計。複数台設置すれば、家中の温湿度をスマホで一括管理できる。",
+    "pros": ["大画面で温度・湿度・快適指数が一目でわかる", "複数箇所の温湿度をアプリで一括管理できる", "熱中症・カビ対策の目安になる"],
+    "cons": ["天気予報表示など一部機能は別売りのハブが必要"],
+    "links": {
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7XX6+ADW8OI+4W9U+BWGDT&a8ejpredirect=https%3A%2F%2Fwww.switchbot.jp%2Fproducts%2Fswitchbot-meter-pro"
+    }
+  },
+  {
     "id": "sample-earbuds-a",
     "name": "サンプルイヤホンA（ノイズキャンセリング）",
     "brand": "サンプルブランド",

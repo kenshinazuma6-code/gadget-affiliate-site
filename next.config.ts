@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "placehold.co" },
       // 多摩電子工業(tama's)の商品画像
       { protocol: "https", hostname: "shop.tamadenco.co.jp" },
+      // SwitchBotの商品画像
+      { protocol: "https", hostname: "cdn.shopify.com" },
     ],
   },
 };
