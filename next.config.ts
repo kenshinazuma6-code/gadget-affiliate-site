@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "shop.tamadenco.co.jp" },
       // SwitchBotの商品画像
       { protocol: "https", hostname: "cdn.shopify.com" },
+      // Edifierの商品画像
+      { protocol: "https", hostname: "www.edifier.jp" },
     ],
   },
 };

@@ -13,7 +13,7 @@ featured: true
 
 ## 比較表
 
-[compare:sample-earbuds-a,sample-earbuds-b]
+[compare:edifier-neobuds-pro-3,edifier-evobuds-pro]
 
 ## 旅行用ガジェットを選ぶときの3つの基準
 

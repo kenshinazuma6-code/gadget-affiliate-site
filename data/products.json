@@ -90,39 +90,33 @@
     }
   },
   {
-    "id": "sample-earbuds-a",
-    "name": "サンプルイヤホンA（ノイズキャンセリング）",
-    "brand": "サンプルブランド",
+    "id": "edifier-neobuds-pro-3",
+    "name": "EDIFIER NeoBuds Pro 3",
+    "brand": "Edifier",
     "category": "ワイヤレスイヤホン",
-    "image": "https://placehold.co/400x400?text=Earbuds+A",
-    "priceMin": 8980,
-    "priceMax": 8980,
-    "rating": 4.4,
-    "description": "強力なノイズキャンセリングを搭載し、在宅ワークや通勤中の集中に向いたモデル。",
-    "pros": ["ノイズキャンセリング性能が高い", "通話品質が良い"],
-    "cons": ["連続再生時間はやや短め"],
+    "image": "https://www.edifier.jp/cdn/shop/files/1_c9593aa1-2af4-4618-9c6f-2179580136de.jpg?v=1756689135&width=1000",
+    "priceMin": 19980,
+    "priceMax": 19980,
+    "description": "独自のWIDE-BAND MULTI-CHANNEL ANC技術で最大-50dBのノイズを低減する完全ワイヤレスイヤホン。空間オーディオやマルチポイント接続にも対応し、在宅ワークからプライベートまで幅広く使える上位モデル。",
+    "pros": ["最大-50dBのハイブリッドANCで高いノイズ低減性能", "2台同時接続のマルチポイントに対応", "ANCオフ時最大36時間再生・LDAC/LHDC対応のハイレゾ音質"],
+    "cons": ["価格は同ブランドのエントリーモデルより高め"],
     "links": {
-      "amazon": "https://www.amazon.co.jp/dp/AAAAAAAAAA?tag=YOUR_ASSOCIATE_ID-22",
-      "rakuten": "",
-      "a8": ""
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7YP7+7QMVW2+5BV8+BWGDT&a8ejpredirect=https%3A%2F%2Fedifier.jp%2Fproducts%2Fneobuds-pro-3"
     }
   },
   {
-    "id": "sample-earbuds-b",
-    "name": "サンプルイヤホンB（軽量・長時間）",
-    "brand": "サンプルブランド",
+    "id": "edifier-evobuds-pro",
+    "name": "EDIFIER EvoBuds Pro",
+    "brand": "Edifier",
     "category": "ワイヤレスイヤホン",
-    "image": "https://placehold.co/400x400?text=Earbuds+B",
-    "priceMin": 5480,
-    "priceMax": 5480,
-    "rating": 4.1,
-    "description": "軽量設計と長時間バッテリーが特徴で、旅行や長時間の外出に向いたモデル。",
-    "pros": ["軽量で長時間つけていても疲れにくい", "バッテリー持ちが良い"],
-    "cons": ["ノイズキャンセリングは非搭載"],
+    "image": "https://www.edifier.jp/cdn/shop/files/1_1_d7269a6f-96ff-4a37-be9f-a040b87b1e22.jpg?v=1761622560&width=1000",
+    "priceMin": 10980,
+    "priceMax": 10980,
+    "description": "ハイブリッドANCで最大-48dBのノイズを低減しつつ、6基のマイクとAIアルゴリズムでクリアな通話品質を確保した完全ワイヤレスイヤホン。Bluetooth 6.0のマルチポイントで、PCとスマホの切り替えもスムーズ。",
+    "pros": ["6マイク+AIノイズリダクションで会議・通話がクリア", "2万円以下でハイブリッドANC・36時間再生・IP54を実現", "装着検出機能や急速充電など日常使いの機能も充実"],
+    "cons": ["空間オーディオなど上位モデルの一部機能は非搭載"],
     "links": {
-      "amazon": "https://www.amazon.co.jp/dp/BBBBBBBBBB?tag=YOUR_ASSOCIATE_ID-22",
-      "rakuten": "",
-      "a8": ""
+      "a8": "https://px.a8.net/svt/ejp?a8mat=4B7YP7+7QMVW2+5BV8+BWGDT&a8ejpredirect=https%3A%2F%2Fedifier.jp%2Fproducts%2Fevobuds-pro"
     }
   }
 ]

@@ -13,7 +13,7 @@ featured: true
 
 ## 比較表
 
-[compare:sample-earbuds-a,sample-earbuds-b]
+[compare:edifier-neobuds-pro-3,edifier-evobuds-pro]
 
 ## 在宅ワーク用に選ぶときのチェックポイント
 
