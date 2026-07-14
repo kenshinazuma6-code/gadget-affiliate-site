@@ -25,7 +25,7 @@ export default function HomePage() {
         >
           <div>
             <p className="text-xs font-semibold uppercase tracking-wide text-orange-100">
-              4問でわかる
+              6問でわかる
             </p>
             <p className="mt-1 text-xl font-bold">
               あなたにぴったりのガジェットタイプ診断

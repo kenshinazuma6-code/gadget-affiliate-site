@@ -4,7 +4,7 @@ import DiagnosisQuiz from "@/components/DiagnosisQuiz";
 export const metadata: Metadata = {
   title: "あなたにぴったりのガジェットタイプ診断",
   description:
-    "4つの質問に答えるだけで、あなたに合ったガジェット選びのタイプがわかる診断です。",
+    "6つの質問に答えるだけで、あなたに合ったガジェット選びのタイプがわかる診断です。",
 };
 
 export default function ShindanPage() {
@@ -15,7 +15,7 @@ export default function ShindanPage() {
           あなたにぴったりのガジェットタイプ診断
         </h1>
         <p className="mt-2 text-gray-600">
-          4つの質問に答えるだけ。あなたに合ったガジェット選びのタイプがわかります。
+          6つの質問に答えるだけ。あなたに合ったガジェット選びのタイプがわかります。
         </p>
       </div>
       <DiagnosisQuiz />
