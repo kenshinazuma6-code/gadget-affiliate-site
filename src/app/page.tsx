@@ -18,20 +18,32 @@ export default function HomePage() {
         </p>
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16 grid gap-4 sm:grid-cols-2">
         <Link
           href="/shindan"
-          className="flex flex-col items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-8 text-center text-white transition hover:opacity-95 sm:flex-row sm:justify-between sm:text-left"
+          className="flex flex-col items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-6 py-8 text-center text-white transition hover:opacity-95 sm:items-start sm:text-left"
         >
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-orange-100">
-              6問でわかる
-            </p>
-            <p className="mt-1 text-xl font-bold">
-              あなたにぴったりのガジェットタイプ診断
-            </p>
-          </div>
-          <span className="mt-4 rounded-md bg-white px-5 py-2 text-sm font-semibold text-orange-600 sm:mt-0">
+          <p className="text-xs font-semibold uppercase tracking-wide text-orange-100">
+            6問でサクッと
+          </p>
+          <p className="mt-1 text-xl font-bold">
+            ガジェットタイプ診断（簡易版）
+          </p>
+          <span className="mt-4 rounded-md bg-white px-5 py-2 text-sm font-semibold text-orange-600">
+            診断してみる
+          </span>
+        </Link>
+        <Link
+          href="/shindan16"
+          className="flex flex-col items-center gap-2 rounded-xl bg-gradient-to-r from-slate-700 to-slate-900 px-6 py-8 text-center text-white transition hover:opacity-95 sm:items-start sm:text-left"
+        >
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-300">
+            全28問・本格版
+          </p>
+          <p className="mt-1 text-xl font-bold">
+            16タイプ ガジェット性格診断
+          </p>
+          <span className="mt-4 rounded-md bg-white px-5 py-2 text-sm font-semibold text-slate-800">
             診断してみる
           </span>
         </Link>

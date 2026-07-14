@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import DiagnosisQuiz from "@/components/DiagnosisQuiz";
 
 export const metadata: Metadata = {
@@ -16,6 +17,13 @@ export default function ShindanPage() {
         </h1>
         <p className="mt-2 text-gray-600">
           6つの質問に答えるだけ。あなたに合ったガジェット選びのタイプがわかります。
+        </p>
+        <p className="mt-4 text-sm text-gray-500">
+          もっと詳しく知りたい方は
+          <Link href="/shindan16" className="mx-1 text-orange-600 underline underline-offset-2">
+            全28問の16タイプ診断
+          </Link>
+          もあります。
         </p>
       </div>
       <DiagnosisQuiz />

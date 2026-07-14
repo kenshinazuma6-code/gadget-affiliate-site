@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPostsMeta, getAllCategories, getAllTags } from "@/lib/posts";
 import { diagnosisResults } from "@/lib/diagnosis";
+import { diagnosis16Results } from "@/lib/diagnosis16";
 import { siteConfig } from "@/lib/site-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: siteConfig.url, changeFrequency: "weekly", priority: 1 },
     { url: `${siteConfig.url}/posts`, changeFrequency: "daily", priority: 0.8 },
     { url: `${siteConfig.url}/shindan`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${siteConfig.url}/shindan16`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${siteConfig.url}/about`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/privacy`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/contact`, changeFrequency: "yearly", priority: 0.3 },
@@ -24,6 +26,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.4,
     }),
   );
+
+  const diagnosis16Pages: MetadataRoute.Sitemap = Object.keys(
+    diagnosis16Results,
+  ).map((type) => ({
+    url: `${siteConfig.url}/shindan16/result/${type}`,
+    changeFrequency: "monthly",
+    priority: 0.4,
+  }));
 
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${siteConfig.url}/posts/${post.slug}`,
@@ -47,6 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages,
     ...diagnosisPages,
+    ...diagnosis16Pages,
     ...postPages,
     ...categoryPages,
     ...tagPages,
