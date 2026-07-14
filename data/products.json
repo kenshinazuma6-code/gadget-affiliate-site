@@ -118,5 +118,133 @@
     "links": {
       "a8": "https://px.a8.net/svt/ejp?a8mat=4B7YP7+7QMVW2+5BV8+BWGDT&a8ejpredirect=https%3A%2F%2Fedifier.jp%2Fproducts%2Fevobuds-pro"
     }
+  },
+  {
+    "id": "dyoac-airtag-card",
+    "name": "Dyoac エアタグ カード型 紛失防止タグ（超薄1.6mm・ワイヤレス充電式）",
+    "brand": "Dyoac",
+    "category": "紛失防止タグ",
+    "image": "https://m.media-amazon.com/images/I/71rKqsqQF3L._AC_SX522_.jpg",
+    "priceMin": 2999,
+    "priceMax": 2999,
+    "rating": 4.6,
+    "description": "厚さ1.6mmのカード型紛失防止タグ。ワイヤレス充電式で電池交換が不要で、財布に入れてもかさばらない薄さが特徴。Apple「探す」に対応したMFi認証品。",
+    "pros": ["厚さ1.6mmの超薄型でカード感覚で財布に収納できる", "ワイヤレス充電式で電池交換の手間がない（1時間の充電で3〜4か月使用可）", "IP68防水・MFi認証取得済みでApple「探す」に安定接続"],
+    "cons": ["一部レビューで数か月使用後にバッテリー持ちや位置更新の不具合報告あり"],
+    "links": {
+      "amazon": "https://amzn.to/4fcHiAP"
+    }
+  },
+  {
+    "id": "switchbot-tracker-card",
+    "name": "SwitchBot スマートトラッカー カード（Apple「探す」＋ロックのカードキー対応）",
+    "brand": "SwitchBot",
+    "category": "紛失防止タグ",
+    "image": "https://m.media-amazon.com/images/I/71a6bajyVWL._AC_SX569_.jpg",
+    "priceMin": 3480,
+    "priceMax": 3480,
+    "rating": 3.8,
+    "description": "Apple「探す」とSwitchBotアプリの両方で持ち物を探せるカード型トラッカー。SwitchBotロック製品のカードキーとしても使える1枚4役タイプ。",
+    "pros": ["Apple「探す」だけでなくSwitchBotアプリでAndroidからも探せる", "SwitchBotロック製品のカードキーとしても使える1枚4役", "IP67防水・3年に1度の電池交換で長寿命"],
+    "cons": ["評価はやや低め（★3.8）で、電池残量通知など一部機能はSwitchBotハブが別途必要"],
+    "links": {
+      "amazon": "https://amzn.to/4ylCXUO"
+    }
+  },
+  {
+    "id": "ugreen-finetrack-slim",
+    "name": "UGREEN FineTrack Slim Smart Finder 紛失防止タグ（磁気急速充電・スリム1.7mm）",
+    "brand": "UGREEN",
+    "category": "紛失防止タグ",
+    "image": "https://m.media-amazon.com/images/I/51HwCM5E2nL._AC_SX522_.jpg",
+    "priceMin": 3749,
+    "priceMax": 3749,
+    "rating": 4.3,
+    "description": "磁気吸着で貼り付けるだけの急速充電に対応したスリムな紛失防止タグ。1回の充電で最大12か月使用でき、最大80dBの大音量ブザーで見つけやすい。",
+    "pros": ["磁気式で吸着させるだけの急速充電に対応", "1回の充電で最大12か月使用可能なロングバッテリー", "最大80dBの大音量ブザーと5台のAppleデバイスへの共有に対応"],
+    "cons": ["iOS専用でAndroidでは利用不可"],
+    "links": {
+      "amazon": "https://amzn.to/4w53PqD"
+    }
+  },
+  {
+    "id": "vocolinc-airtag-4pack",
+    "name": "VOCOlinc エアタグ 紛失防止タグ 4個セット（CR2032電池交換式）",
+    "brand": "VOCOlinc",
+    "category": "紛失防止タグ",
+    "image": "https://m.media-amazon.com/images/I/51hgk8CcE4L._AC_SX522_.jpg",
+    "priceMin": 4999,
+    "priceMax": 4999,
+    "rating": 4.1,
+    "description": "CR2032電池で交換しながら長く使えるタグ型トラッカーの4個セット。鍵・バッグ・自転車など複数のアイテムに配布しやすく、Apple「探す」ネットワークで追跡できる。",
+    "pros": ["CR2032電池交換式で最大1年のスタンバイ、電池切れ後も交換だけで使い続けられる", "4個セットで鍵・バッグ・自転車など複数アイテムに配布しやすい", "IP65防水・MIC技適認証取得済み"],
+    "cons": ["カード型ではなくタグ型なので財布に入れるには不向き、iOS専用"],
+    "links": {
+      "amazon": "https://amzn.to/3RvWSQe"
+    }
+  },
+  {
+    "id": "boompods-boomtag-car",
+    "name": "BOOMPODS Boomtag Car Charger（車載充電器＋AirTag機能一体型）",
+    "brand": "BOOMPODS",
+    "category": "紛失防止タグ",
+    "image": "https://m.media-amazon.com/images/I/71JaPhteHyL._AC_SX522_.jpg",
+    "priceMin": 8500,
+    "priceMax": 8500,
+    "rating": 4.1,
+    "description": "USB-A・USB-Cの2ポート最大33W充電に対応したシガーソケット型カーチャージャーに、Apple「探す」対応のAirTag機能を一体化。内蔵バッテリーでエンジン停止後も位置情報を更新できる。",
+    "pros": ["USB-A＋C 2ポート・最大33W出力のカーチャージャーとAirTag機能が一体化", "内蔵バッテリーによりエンジン停止後も最大2か月位置情報を更新", "専用アプリ・月額費不要でiPhoneの「探す」アプリだけで設定完了"],
+    "cons": ["価格はこのジャンルでは高め（¥8,500）で車両専用のため汎用性は低い"],
+    "links": {
+      "amazon": "https://amzn.to/4w1vsAC"
+    }
+  },
+  {
+    "id": "shokz-openmove",
+    "name": "Shokz OpenMove 骨伝導イヤホン",
+    "brand": "Shokz",
+    "category": "ワイヤレスイヤホン",
+    "image": "https://m.media-amazon.com/images/I/41-9D0qY9RL._AC_SY741_.jpg",
+    "priceMin": 11880,
+    "priceMax": 11880,
+    "rating": 4.3,
+    "description": "第7世代骨伝導技術とPremiumPitch 2.0を搭載したエントリーモデル。耳を塞がないオープンイヤー設計で、周囲の音を聞きながらランニングや通勤に使える。",
+    "pros": ["骨伝導イヤホンとして価格が手頃", "重さ29gと軽量で長時間の装着でも疲れにくい", "IP55防水防塵で汗や雨を気にせず使える"],
+    "cons": ["連続再生時間は6時間と上位モデルより短め", "Bluetoothはワンランク古い5.1"],
+    "links": {
+      "amazon": "https://amzn.to/4wHOsnV"
+    }
+  },
+  {
+    "id": "shokz-openrun-pro2",
+    "name": "Shokz OpenRun Pro 2 骨伝導イヤホン",
+    "brand": "Shokz",
+    "category": "ワイヤレスイヤホン",
+    "image": "https://m.media-amazon.com/images/I/4148K4KKoyL._AC_SX679_.jpg",
+    "priceMin": 27880,
+    "priceMax": 27880,
+    "rating": 4.3,
+    "description": "骨伝導スピーカーと空気伝導スピーカーを組み合わせた「DualPitch」技術搭載のフラッグシップモデル。周囲の音を確認しながら運動できるスポーツ向けの一台。",
+    "pros": ["DualPitch技術で骨伝導イヤホンながら厚みのある音質", "人間工学に基づいたイヤーフックでランニング中もずれにくい", "IP55防水防塵・USB-C急速充電で屋外運動向き"],
+    "cons": ["Dolby Audioやワイヤレス充電には非対応", "価格は同ブランドのエントリーモデルより高め"],
+    "links": {
+      "amazon": "https://amzn.to/4wEO758"
+    }
+  },
+  {
+    "id": "shokz-openfit2-plus",
+    "name": "Shokz OpenFit 2+ オープンイヤーイヤホン",
+    "brand": "Shokz",
+    "category": "ワイヤレスイヤホン",
+    "image": "https://m.media-amazon.com/images/I/61RhIJ5zoVL._AC_SY879_.jpg",
+    "priceMin": 27880,
+    "priceMax": 27880,
+    "rating": 4.4,
+    "description": "骨伝導ではなく気導式のオープンイヤー型で、Dolby Audio対応の17.3mm大型ドライバーを搭載。日常使い・仕事用途まで幅広くこなせる上位モデル。",
+    "pros": ["Dolby Audio対応・大型ドライバーで音質重視の人にも満足度が高い", "ケース込み最大48時間再生とワイヤレス充電に対応", "9.4gの超軽量設計で長時間つけていても負担が少ない"],
+    "cons": ["骨伝導ではなく気導式のため、他のShokz製品と装着感の傾向が異なる"],
+    "links": {
+      "amazon": "https://amzn.to/4vXt9i4"
+    }
   }
 ]

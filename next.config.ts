@@ -13,6 +13,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "cdn.shopify.com" },
       // Edifierの商品画像
       { protocol: "https", hostname: "www.edifier.jp" },
+      // Amazonの商品画像
+      { protocol: "https", hostname: "m.media-amazon.com" },
     ],
   },
 };
