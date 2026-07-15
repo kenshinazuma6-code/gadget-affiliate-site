@@ -108,6 +108,17 @@ export default async function ManualResultPage({
         <p className="mt-10 text-xs leading-relaxed text-indigo-300/70">
           本診断はBig Five理論を参考に独自に作成したエンタメ企画であり、学術的に検証された正式な心理検査ではありません。
         </p>
+        <div className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-indigo-300/70">
+          <Link href="/about" className="hover:text-indigo-200">
+            運営者情報
+          </Link>
+          <Link href="/privacy" className="hover:text-indigo-200">
+            プライバシーポリシー
+          </Link>
+          <Link href="/contact" className="hover:text-indigo-200">
+            お問い合わせ
+          </Link>
+        </div>
       </div>
     </div>
   );

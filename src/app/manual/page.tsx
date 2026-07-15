@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import BigFiveQuiz from "@/components/BigFiveQuiz";
 
 export const metadata: Metadata = {
@@ -40,6 +41,17 @@ export default function ManualPage() {
           <p>
             参考：小塩真司『性格診断ブームを問う――心理学からの警鐘』（岩波ブックレット, 2025）
           </p>
+          <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1">
+            <Link href="/about" className="hover:text-indigo-200">
+              運営者情報
+            </Link>
+            <Link href="/privacy" className="hover:text-indigo-200">
+              プライバシーポリシー
+            </Link>
+            <Link href="/contact" className="hover:text-indigo-200">
+              お問い合わせ
+            </Link>
+          </div>
         </div>
       </div>
     </div>
