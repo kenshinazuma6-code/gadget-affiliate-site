@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPostsMeta, getAllCategories, getAllTags } from "@/lib/posts";
 import { diagnosisResults } from "@/lib/diagnosis";
 import { diagnosis16Results } from "@/lib/diagnosis16";
+import { bigFiveResults } from "@/lib/bigfive";
 import { siteConfig } from "@/lib/site-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteConfig.url}/posts`, changeFrequency: "daily", priority: 0.8 },
     { url: `${siteConfig.url}/shindan`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${siteConfig.url}/shindan16`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${siteConfig.url}/manual`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${siteConfig.url}/about`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/privacy`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${siteConfig.url}/contact`, changeFrequency: "yearly", priority: 0.3 },
@@ -34,6 +36,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.4,
   }));
+
+  const manualPages: MetadataRoute.Sitemap = Object.keys(bigFiveResults).map(
+    (type) => ({
+      url: `${siteConfig.url}/manual/result/${type}`,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    }),
+  );
 
   const postPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${siteConfig.url}/posts/${post.slug}`,
@@ -58,6 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPages,
     ...diagnosisPages,
     ...diagnosis16Pages,
+    ...manualPages,
     ...postPages,
     ...categoryPages,
     ...tagPages,
