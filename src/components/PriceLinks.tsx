@@ -7,7 +7,15 @@ const LABELS: Record<keyof ProductLinks, string> = {
   a8: "詳細を見る",
 };
 
-export default function PriceLinks({ links }: { links: ProductLinks }) {
+export default function PriceLinks({
+  links,
+  productId,
+  productName,
+}: {
+  links: ProductLinks;
+  productId: string;
+  productName: string;
+}) {
   const entries = (Object.keys(LABELS) as (keyof ProductLinks)[]).filter(
     (key) => links[key],
   );
@@ -23,6 +31,10 @@ export default function PriceLinks({ links }: { links: ProductLinks }) {
           target="_blank"
           rel="nofollow sponsored noopener noreferrer"
           className="inline-block rounded-md bg-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600"
+          data-affiliate-link="1"
+          data-product-id={productId}
+          data-product-name={productName}
+          data-link-type={key}
         >
           {LABELS[key]}
         </a>

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import SiteChrome from "@/components/SiteChrome";
+import AffiliateClickTracker from "@/components/AffiliateClickTracker";
 import { siteConfig } from "@/lib/site-config";
 
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
@@ -48,6 +49,7 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col">
         <SiteChrome>{children}</SiteChrome>
         {gaId && <GoogleAnalytics gaId={gaId} />}
+        {gaId && <AffiliateClickTracker />}
       </body>
     </html>
   );

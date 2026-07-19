@@ -30,7 +30,11 @@ export default function ProductCard({ product }: { product: Product }) {
             </span>
           )}
         </div>
-        <PriceLinks links={product.links} />
+        <PriceLinks
+          links={product.links}
+          productId={product.id}
+          productName={product.name}
+        />
       </div>
     </div>
   );

@@ -70,7 +70,11 @@ export default function ProductCompareTable({
             <th className="p-3 font-semibold text-gray-500">購入先</th>
             {products.map((product) => (
               <td key={product.id} className="p-3">
-                <PriceLinks links={product.links} />
+                <PriceLinks
+                  links={product.links}
+                  productId={product.id}
+                  productName={product.name}
+                />
               </td>
             ))}
           </tr>

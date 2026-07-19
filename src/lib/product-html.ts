@@ -26,12 +26,16 @@ const LINK_LABELS: Record<string, string> = {
   a8: "詳細を見る",
 };
 
-function renderLinksHtml(links: ProductLinks): string {
+function renderLinksHtml(
+  links: ProductLinks,
+  productId: string,
+  productName: string,
+): string {
   const buttons = (Object.entries(links) as [string, string | undefined][])
     .filter(([, url]) => url)
     .map(
       ([key, url]) =>
-        `<a href="${escapeHtml(url!)}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="inline-block rounded-md bg-orange-500 px-4 py-2 text-sm font-semibold text-white no-underline">${LINK_LABELS[key] ?? "詳細を見る"}</a>`,
+        `<a href="${escapeHtml(url!)}" target="_blank" rel="nofollow sponsored noopener noreferrer" class="inline-block rounded-md bg-orange-500 px-4 py-2 text-sm font-semibold text-white no-underline" data-affiliate-link="1" data-product-id="${escapeHtml(productId)}" data-product-name="${escapeHtml(productName)}" data-link-type="${key}">${LINK_LABELS[key] ?? "詳細を見る"}</a>`,
     )
     .join("");
 
@@ -60,7 +64,7 @@ export function renderProductCardHtml(id: string): string {
       <span class="text-lg font-bold text-gray-900">${formatPrice(product.priceMin, product.priceMax)}</span>
       ${rating}
     </div>
-    ${renderLinksHtml(product.links)}
+    ${renderLinksHtml(product.links, product.id, product.name)}
   </div>
 </div>`.trim();
 }
@@ -105,7 +109,10 @@ export function renderCompareTableHtml(ids: string[]): string {
     .join("");
 
   const linkCells = products
-    .map((product) => `<td class="p-3">${renderLinksHtml(product.links)}</td>`)
+    .map(
+      (product) =>
+        `<td class="p-3">${renderLinksHtml(product.links, product.id, product.name)}</td>`,
+    )
     .join("");
 
   return `
